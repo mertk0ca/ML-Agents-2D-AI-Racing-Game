@@ -1,8 +1,8 @@
 WARNING
 --------------------------------------------
-After users have added the necessary files to Unity, they should create a venv directory inside the project folder. Then should install the required libraries into this venv directory. You can find the libraries that need to be installed in the file named required_versions.png. Make sure you followed Setup Steps. It only works on certain versions of Python and Protobuf!
+After users have added the necessary files to Unity, they should create a venv directory inside the project folder. Then should install the required libraries into this venv directory. You can find the libraries that need to be installed in the file named "required_versions.png". Make sure you followed Setup Steps. It only works on certain versions of Python and Protobuf!
 
-For more information and tutorial: https://www.youtube.com/watch?v=zPFU30tbyKs&list=LL&index=7 (recommend you to watch it)
+For more information and setup tutorial: https://www.youtube.com/watch?v=zPFU30tbyKs&list=LL&index=7 (recommend you to watch it)
 
 More information about Imitation Learning: https://www.youtube.com/watch?v=2X5m_nDBvS4&list=LL&index=5&t=643s (recommend you to watch it)
 
