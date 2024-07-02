@@ -1,0 +1,56 @@
+{
+    "MoveToTarget": {
+        "checkpoints": [
+            {
+                "steps": 28160,
+                "file_path": "results\\test2\\MoveToTarget\\MoveToTarget-28160.onnx",
+                "reward": null,
+                "creation_time": 1715780568.2098718,
+                "auxillary_file_paths": [
+                    "results\\test2\\MoveToTarget\\MoveToTarget-28160.pt"
+                ]
+            },
+            {
+                "steps": 38592,
+                "file_path": "results\\test2\\MoveToTarget\\MoveToTarget-38592.onnx",
+                "reward": null,
+                "creation_time": 1715780830.9438744,
+                "auxillary_file_paths": [
+                    "results\\test2\\MoveToTarget\\MoveToTarget-38592.pt"
+                ]
+            },
+            {
+                "steps": 59648,
+                "file_path": "results\\test2\\MoveToTarget\\MoveToTarget-59648.onnx",
+                "reward": null,
+                "creation_time": 1715781289.27297,
+                "auxillary_file_paths": [
+                    "results\\test2\\MoveToTarget\\MoveToTarget-59648.pt"
+                ]
+            },
+            {
+                "steps": 82752,
+                "file_path": "results\\test2\\MoveToTarget\\MoveToTarget-82752.onnx",
+                "reward": null,
+                "creation_time": 1715783914.8233838,
+                "auxillary_file_paths": [
+                    "results\\test2\\MoveToTarget\\MoveToTarget-82752.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 82752,
+            "file_path": "results\\test2\\MoveToTarget.onnx",
+            "reward": null,
+            "creation_time": 1715783914.8233838,
+            "auxillary_file_paths": [
+                "results\\test2\\MoveToTarget\\MoveToTarget-82752.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.30.0",
+        "torch_version": "2.3.0+cpu"
+    }
+}
