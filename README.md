@@ -106,7 +106,7 @@ Match 3 Actuator: Performs actions in Match 3 style games (e.g., Candy Crush).
 
 Match 3 Sensor: Detects the game state in Match 3 style games.
 
-Ray Perception Sensor 2D/3D: Detects objects in 2D/3D environments.
+Ray Perception Sensor 2D/3D: Detects objects in 2D/3D environments. (We are going to use this.)
 
 Render Texture Sensor: Provides data using render textures.
 
