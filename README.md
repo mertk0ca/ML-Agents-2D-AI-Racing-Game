@@ -112,24 +112,6 @@ Render Texture Sensor: Provides data using render textures.
 
 Vector Sensor: Provides environment data using specific vector information.
 
-Movement Project
---------------------------------------------
-
-    
-In this project, the agent targets purple rewards on a platform while avoiding invisible walls that penalize contact. The platform color changes based on interactions: green for rewards and red for collisions. This design encourages agents to reach targets while avoiding negative interactions.
-
-Project Objects
---------------------------------------------
-The project includes four objects: platform, agent, reward, and wall. The agent aims to reach rewards but must restart if it contacts walls.
-
-ML-Agents Behaviors
---------------------------------------------
-The agent must perform multiple trials to reach the target. To speed up training, the environment is duplicated nine times, allowing simultaneous training of nine agents.
-
-Vehicle Control Learning Project
---------------------------------------------
-Similar to the Movement Project, the agent targets random rewards on a platform, restarting and receiving penalties if it hits walls, and rewards for reaching targets. The platform color changes based on interactions.
-
 Vehicle and Agent Controls
 --------------------------------------------
 Vehicle controls are accessed by assigning inputs from another code to the agent's movements. Behavior Parameters manage whether the agent is controlled by a user and other settings.
@@ -139,14 +121,6 @@ Brain Creation, Saving, and Loading
 The agent starts learning upon running the Unity project. The trained brain is stored in the project directory.
 Copy the brain from the results folder to the Assets folder to make it available in Unity.
 Assign the brain to the agent in the Behavior Parameters component.
-
-Success and Failure Rates
---------------------------------------------
-A panel shows the number of successful and unsuccessful trials, the difference, and the success rate. This panel helps observe the increase in success rate with more trials.
-
-Teaching Cornering Project
---------------------------------------------
-A simple track with corners was designed to teach the agent to turn left and right. The agent receives penalties for hitting walls and rewards for reaching checkpoints. The reward increases as the agent progresses through checkpoints.
 
 Checkpoints
 --------------------------------------------
