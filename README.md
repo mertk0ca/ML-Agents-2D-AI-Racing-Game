@@ -12,7 +12,7 @@ More information about Imitation Learning: https://www.youtube.com/watch?v=2X5m_
 Summary
 --------------------------------------------
 
-This project involves an artificial intelligence developed using Unity's ML-Agents library, Python, and PyTorch. The goal is to teach an AI model how to drive a car within a Unity environment. This report details the project's requirements, literature review, reinforcement learning algorithm, setup steps, ML-Agents components, different project sections, and results. It emphasizes the importance of using libraries like ML-Agents in the field of artificial intelligence.
+This project involves an artificial intelligence developed using Unity's ML-Agents library, Python, and PyTorch. The goal is to teach an AI model how to drive a car within a Unity environment. In this project, Istanbul Park was used as the track. This report details the project's requirements, literature review, reinforcement learning algorithm, setup steps, ML-Agents components, different project sections, and results. It emphasizes the importance of using libraries like ML-Agents in the field of artificial intelligence.
 
 Introduction
 --------------------------------------------
