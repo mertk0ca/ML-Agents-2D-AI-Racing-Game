@@ -146,7 +146,10 @@ Stores user-recorded behaviors with a .demo extension.
 
 Agent's Direction Relative to Target
 --------------------------------------------
-A new observation was added to the code to collect the agent's direction vector relative to the target.
+A new observation was added to the code to collect the agent's direction vector relative to the target using this code.
+
+Vector3 dirToTarget = (target.transform.localPosition - transform.localPosition).normalized;
+        sensor.AddObservation(dirToTarget);
 
 Recording Behaviors
 --------------------------------------------
